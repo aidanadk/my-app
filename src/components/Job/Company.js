@@ -1,6 +1,9 @@
 import React from 'react'
+import { JobsContext } from '../../context/jobsContext'
 
-const Company = ({isNew, isFeatured, company}) => {
+const Company = () => {
+  const {isNew, isFeatured, company} = React.useContext(JobsContext)
+  
   return (
     <div className="job__company job-company">
       <span className="job-company__name">{company}</span>

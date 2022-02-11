@@ -1,0 +1,36 @@
+@import '../../assets/scss/global.scss';
+.filter{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 40px;
+   background-color: #fff;
+   position: absolute;
+   transform: translateY(-50%);
+   top: -80px;
+   width: 100%;
+   left: 0;
+   &__list{
+      display: flex;
+      &__item{
+         justify-content: space-between;
+         margin-left: 15px;
+         background-color: $bg-color-neutral-light-gray;
+         color: $color-primary;
+         font-weight: 700;
+         padding: 8px;
+         border-radius: 5px;
+         font-size: 12px;
+         cursor: pointer;
+      }
+      .remove{
+         margin-left: 7px;
+         
+      }
+   }
+   .clear{
+      color: $color-primary;
+      background-color: transparent;
+      border: none;
+      text-decoration: underline; 
+      }
+}
