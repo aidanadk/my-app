@@ -33,6 +33,7 @@ function App() {
 
   return (
     <div className="App">
+      <div>ggyugyuguguy</div>
       <div className="header">
         <img
           className="header-img"
@@ -40,6 +41,7 @@ function App() {
           alt=""
         />
       </div>
+      <div>ебаный интернет</div>
       <div className="container app__container">
         {filterItems.length > 0 && <Filter filterItems={filterItems} />}
         {jobs.map((job) => (
